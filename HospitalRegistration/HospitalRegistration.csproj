@@ -46,6 +46,7 @@
     <Compile Include="DentistDepartment.cs" />
     <Compile Include="Department.cs" />
     <Compile Include="Doctor.cs" />
+    <Compile Include="FileHelper.cs" />
     <Compile Include="PediatricDepartment.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
