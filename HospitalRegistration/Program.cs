@@ -232,7 +232,7 @@ namespace HospitalRegistration
                                 Console.WriteLine("Choose time: ");
                                 choiceTime = Convert.ToInt32(Console.ReadLine());
                                 MakeMeeting(traumatologyDepartment, choiceTime, 0);
-                                fh.WriteToFile(name, surname, age, times, traumatologyDepartment, 0, choiceTime);
+                                fh.WriteToFile(name, surname, age, times, traumatologyDepartment, 3, choiceTime);
                                 break;
                             case 5:
                                 Console.Clear();
@@ -240,7 +240,7 @@ namespace HospitalRegistration
                                 Console.WriteLine("Choose time: ");
                                 choiceTime = Convert.ToInt32(Console.ReadLine());
                                 MakeMeeting(traumatologyDepartment, choiceTime, 1);
-                                fh.WriteToFile(name, surname, age, times, traumatologyDepartment, 1, choiceTime);
+                                fh.WriteToFile(name, surname, age, times, traumatologyDepartment, 4, choiceTime);
                                 break;
                             case 6:
                                 Console.Clear();
@@ -248,7 +248,7 @@ namespace HospitalRegistration
                                 Console.WriteLine("Choose time: ");
                                 choiceTime = Convert.ToInt32(Console.ReadLine());
                                 MakeMeeting(traumatologyDepartment, choiceTime, 3);
-                                fh.WriteToFile(name, surname, age, times, traumatologyDepartment, 2, choiceTime);
+                                fh.WriteToFile(name, surname, age, times, traumatologyDepartment, 5, choiceTime);
                                 break;
                             case 7:
                                 Console.Clear();
@@ -256,7 +256,7 @@ namespace HospitalRegistration
                                 Console.WriteLine("Choose time: ");
                                 choiceTime = Convert.ToInt32(Console.ReadLine());
                                 MakeMeeting(traumatologyDepartment, choiceTime, 4);
-                                fh.WriteToFile(name, surname, age, times, traumatologyDepartment, 3, choiceTime);
+                                fh.WriteToFile(name, surname, age, times, traumatologyDepartment, 6, choiceTime);
                                 break;
                             default:
                                 Console.Clear();
@@ -276,7 +276,7 @@ namespace HospitalRegistration
                                 Console.WriteLine("Choose time: ");
                                 choiceTime = Convert.ToInt32(Console.ReadLine());
                                 MakeMeeting(dentistDepartment, choiceTime, 0);
-                                fh.WriteToFile(name, surname, age, times, dentistDepartment, 0, choiceTime);
+                                fh.WriteToFile(name, surname, age, times, dentistDepartment, 7, choiceTime);
                                 break;
                             case 9:
                                 Console.Clear();
@@ -284,7 +284,7 @@ namespace HospitalRegistration
                                 Console.WriteLine("Choose time: ");
                                 choiceTime = Convert.ToInt32(Console.ReadLine());
                                 MakeMeeting(dentistDepartment, choiceTime, 1);
-                                fh.WriteToFile(name, surname, age, times, dentistDepartment, 1, choiceTime);
+                                fh.WriteToFile(name, surname, age, times, dentistDepartment, 8, choiceTime);
                                 break;
                             default:
                                 Console.Clear();
